@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentDua"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/tv_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="INI FRAGMENT DUA"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="INI FRAGMENT DUA"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        />
+    <Button
+        android:id="@+id/BtnSatu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PINDAH FRAGMENT SATU"
+        android:layout_marginHorizontal="20dp"
+        />
+
+</LinearLayout>
